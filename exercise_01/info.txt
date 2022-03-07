@@ -1,0 +1,16 @@
+1. **Es único**: implementa un algoritmo para determinar si un **string** se compone de caracteres únicos.
+    
+    **Restricciones:** El **string** estará compuesto por caracteres ASCII (no extendido).
+
+
+//Input
+// isUniqueChars("abcdef");
+
+//Output
+// true -> ningún caracter se repite
+
+//Input
+// isUniqueChars("abbcdef");
+
+//Output
+// false -> el caracter b se repite

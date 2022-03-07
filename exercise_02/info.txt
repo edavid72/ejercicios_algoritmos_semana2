@@ -1,0 +1,36 @@
+1. Completa la clase Array con los siguientes métodos:
+    1. `**shiftItems**` → Sobrescribir un elemento del arreglo por el siguiente elemento dado un índice. `[1,2,3].shiftItems(1) → [1,3]`
+    2. **`deleteAtIndex`** → borrar un elemento del arreglo dado un índice, regresa el elemento eliminado.
+
+
+    class MyArray{
+        constructor(){
+          this.length = 0;
+          this.data = {};
+        }
+      
+        get(index){
+          return this.data[index];
+        }
+      
+        push(value){
+          this.data[this.length] = value;
+          this.length++;
+          return this.length;
+        }
+      
+        pop(){
+          const lastItem = this.data[this.length - 1];
+          delete this.data[this.length - 1];
+          this.length--;
+          return lastItem;
+        }
+      
+          shiftItems(){
+              //Completar
+          }
+      
+          deleteAtIndex(){
+              //Completar
+          }
+      }
